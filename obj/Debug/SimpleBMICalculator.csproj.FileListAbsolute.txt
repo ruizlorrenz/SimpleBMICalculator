@@ -1,0 +1,10 @@
+C:\Users\ruizl\source\repos\SimpleBMICalculator\bin\Debug\SimpleBMICalculator.exe.config
+C:\Users\ruizl\source\repos\SimpleBMICalculator\bin\Debug\SimpleBMICalculator.exe
+C:\Users\ruizl\source\repos\SimpleBMICalculator\bin\Debug\SimpleBMICalculator.pdb
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.csproj.AssemblyReference.cache
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.Properties.Resources.resources
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.csproj.GenerateResource.cache
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.csproj.CoreCompileInputs.cache
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.exe
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.pdb
