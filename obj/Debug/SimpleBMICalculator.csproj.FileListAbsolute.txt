@@ -8,3 +8,4 @@ C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.cs
 C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.csproj.CoreCompileInputs.cache
 C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.exe
 C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.pdb
+C:\Users\ruizl\source\repos\SimpleBMICalculator\obj\Debug\SimpleBMICalculator.bmiCalculatorForm.resources
