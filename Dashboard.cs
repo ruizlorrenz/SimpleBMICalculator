@@ -24,7 +24,8 @@ namespace SimpleBMICalculator {
         }
 
         private void calculateButton_Click(object sender, EventArgs e) {
-            height = int.Parse(heightTextbox.Text);
+            int feetInInches = int.Parse(heightFeetTextbox.Text) * 12; // formula to convert feet to inches (feet * 12)
+            height = feetInInches + int.Parse(heightInchesTextbox.Text);
             weight = int.Parse(weightTextbox.Text);
 
             bmi = CalculateBMI(height, weight);
