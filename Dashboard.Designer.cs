@@ -76,7 +76,7 @@
             // 
             this.weightTextbox.Location = new System.Drawing.Point(137, 94);
             this.weightTextbox.Name = "weightTextbox";
-            this.weightTextbox.Size = new System.Drawing.Size(47, 29);
+            this.weightTextbox.Size = new System.Drawing.Size(55, 29);
             this.weightTextbox.TabIndex = 4;
             // 
             // resultLabel
@@ -103,9 +103,8 @@
             this.classificationLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.classificationLabel.Location = new System.Drawing.Point(16, 241);
             this.classificationLabel.Name = "classificationLabel";
-            this.classificationLabel.Size = new System.Drawing.Size(86, 16);
+            this.classificationLabel.Size = new System.Drawing.Size(0, 16);
             this.classificationLabel.TabIndex = 7;
-            this.classificationLabel.Text = "Classification";
             // 
             // heightInchesTextbox
             // 
@@ -141,6 +140,7 @@
             this.modeButton.TabIndex = 11;
             this.modeButton.Text = "Imperial";
             this.modeButton.UseVisualStyleBackColor = true;
+            this.modeButton.Click += new System.EventHandler(this.modeButton_Click);
             // 
             // modeLabel
             // 
