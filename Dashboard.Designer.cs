@@ -71,6 +71,7 @@
             this.heightFeetTextbox.Name = "heightFeetTextbox";
             this.heightFeetTextbox.Size = new System.Drawing.Size(21, 29);
             this.heightFeetTextbox.TabIndex = 3;
+            this.heightFeetTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
             // 
             // weightTextbox
             // 
@@ -78,6 +79,7 @@
             this.weightTextbox.Name = "weightTextbox";
             this.weightTextbox.Size = new System.Drawing.Size(55, 29);
             this.weightTextbox.TabIndex = 4;
+            this.weightTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
             // 
             // resultLabel
             // 
@@ -112,6 +114,7 @@
             this.heightInchesTextbox.Name = "heightInchesTextbox";
             this.heightInchesTextbox.Size = new System.Drawing.Size(24, 29);
             this.heightInchesTextbox.TabIndex = 8;
+            this.heightInchesTextbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numberCheck_KeyPress);
             // 
             // feetLabel
             // 

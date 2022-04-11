@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 /// <summary>
 /// @Author: Charlls Ruiz
-/// Last Modified: April 7 2022
+/// Last Modified: April 11 2022
 /// 
 /// Description: A simple BMI calculator that uses the Imperial & Metric system for calculations.
 /// </summary>
@@ -23,6 +23,7 @@ namespace SimpleBMICalculator {
             InitializeComponent();
             mode = "Imperial"; // Initial mode will be Imperial
         }
+        #region EVENTS
         private void modeButton_Click(object sender, EventArgs e) {
             ChangeMode();
         }
@@ -45,6 +46,12 @@ namespace SimpleBMICalculator {
             resultLabel.Text = $"BMI: {bmi}";
             classificationLabel.Text = "You are considered: " + GetClassification(bmi);
         }
+        private void numberCheck_KeyPress(object sender, KeyPressEventArgs e) {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.')) {
+                e.Handled = true;
+            }
+        }
+        #endregion
         private double ImperialCalculation(double height, double weight) {
             double result = (703 * weight) / (height * height);
 
